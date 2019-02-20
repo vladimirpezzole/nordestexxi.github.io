@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- As 3 meta 'tags' acima * deve * vir em primeiro lugar na "head"; 
+         qualquer outro conteúdo "head" deve vir após * * estas 'tags' -->
+    <title>"Instituto Nordeste XXI"</title>
+
+        <!-- Carregando o CSS do Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Bootstrap theme -->
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  
+          <!-- Estilos -->
+          <link href="css/style.css" rel="stylesheet">
+          <link href="css/media-nav-wrap.css" rel="stylesheet">
+          <link href="css/social-network.css" rel="stylesheet">
+          <link href="css/fotos.css" rel="stylesheet">
+<!--          <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">-->
+          <link href="css/font-awesome.min.css" rel="stylesheet">
+
+          <!-- Carrossel -->
+          <link href="css/carrossel.css" rel="stylesheet">
+      
+          <!-- Scripts -->
+          <script src="js/jquery.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+      
+      <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="img/n.png" >
+      
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<a id="home"></a> 
+ <body class="container.fluid">
+             
+<!-- NAVBAR -- file>> css/media-nav-wrap.css --
+================================================== -->
+<nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	     <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav opaque">
+             <a href="http://nordestexxi.com.br/"> <img src="img/n.png" style="margin: 0px auto 0 auto;" alt="" /></a>
+            <li class="current"><a class="smoothscroll" href="#home">Início</a></li>
+            <li><a href="#section-1">Sobre Nós<strong class="caret"></strong></a>
+				<ul class="dropdown-menu">
+                <li><a class="smoothscroll" href="#missao">Missão</a></li>
+                <li><a class="smoothscroll" href="#quemsomos">Quem Somos</a></li>
+                </ul></li>
+            <li><a href="#section-2">Eventos<strong class="caret"></strong></a>
+				<ul class="dropdown-menu">
+                <li><a class="smoothscroll" href="#conferencias">Conferências</a></li>
+                <li><a class="smoothscroll" href="#debates">Ciclos de Debates</a></li>
+                <li><a class="smoothscroll" href="#seminarios">Seminários</a></li>
+                <li class="li-destak"><a class="smoothscroll" href="#tejucupapo">Troféu Tejucupapo</a></li>
+                </ul></li>
+            <li><a class="smoothscroll" href="#section-3">Projetos</a></li>
+            <li><a class="smoothscroll" href="#section-4">Publicações</a></li>
+            <li><a href="estatuto.html#estatuto" target="_self">Estatuto</a></li>
+            <li><a class="smoothscroll" href="#section-6">Contato</a></li>
+         </ul><!-- end #nav -->  
+</nav>
+<!-- FIM NAVBAR
+================================================== -->
+     
+<!--  Menu Social  ================================================== -->    
+<style>
+.menu-social-2{ position:absolute; top:32%; left:0; z-index:9999; overflow:hidden; width: 80px; position: fixed;}
+.menu-social-2 img{  border: 0; margin: -9px 1px; width: 80px;}
+</style>
+
+<div class='menu-social-2'>
+
+    <ul class="social-network social-circle">
+
+                <li><a href="https://www.facebook.com/InstitutoNordesteXXI" target="_blank" class="icoFacebook social-bnt" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/institutonexxi" target="_blank" class="icoTwitter social-bnt" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.google.com/+NordestexxiBrInstituto" target="_blank" class="icoGoogle social-bnt" title="Google+"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/nordestexxi" target="_blank" class="icoLinkedin social-bnt" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://instagram.com/vladimirpezzole/" target="_blank" class="icoInstagram social-bnt" title="Twitter"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/user/Institutonordestexxi" target="_blank" class="icoYoutube social-bnt" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+
+              </ul>
+</div>
+ <!-- FIM Menu Social  ================================================== -->      
+     
+
+<!-- ALTERNAR CONTAINER -- file>> css/bootstrap.css -- -->  
+<!--<DIV class="container cont1">-->
+ <DIV class="container.fluid cont1"> 
+
+<header id="header-1" class="container.fluid div-fundo">
+<!-- Subhead -- file>> css/bootstrap.css -- Carrossel -- file>> style.css
+================================================== -->     
+<section id="Subhead" >
+    
+<!-- Social -->
+<div id="div-sub-h">
+        <div class="header-destak">
+            <img src="img/logo1.png" alt="" style="max-width: 1000px; height: auto">
+        </div>
+
+</div>
+<!-- Social -->
+    
+<!-- Carrossel -- file>> carrossel.css
+================================================== -->
+<div class="carousel slide" id="carousel-431301">
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#carousel-431301">
+					</li>
+                    <li data-slide-to="1" data-target="#carousel-431301">
+					</li>
+                    <li data-slide-to="2" data-target="#carousel-431301">
+					</li>
+                    <li data-slide-to="3" data-target="#carousel-431301">
+					</li>                    
+                    <li data-slide-to="4" data-target="#carousel-431301">
+					</li>                    
+                    <li data-slide-to="5" data-target="#carousel-431301">
+					</li>
+				</ol>
+                
+				<div class="carousel-inner">
+                    
+                    <!-- item 0 -->
+					<div class="item active">
+                       <div style="width: auto; height: 400px; text-align: center;"  >
+                       <div class="logos-carro" data-target="#carousel-431301">
+                       <img src="img/bola-nova.png" alt="" style="width: auto; height: 340px;">
+                       </div></div>
+                    </div>
+                    
+                    <!-- item 1 --  II CONFERÊNCIA DA CAATINGA-->
+					<div class="item">
+                     <div style="background: #FFF212; width: auto; height: 155px; text-align: center;"></div>
+                     <div style="background: #805A40; width: auto; height: 245px; text-align: center;"></div>
+                            <!-- logos -->
+                     <div class="logos-carro" style=" text-align: left; bottom: 0%;">
+                     <img src="img/logo-branco.png" alt="" style="width: 200px; height: auto;">
+                     </div>
+                     <div class="logos-carro" style="text-align: center; text-shadow: 6px 8px 8px rgba(0, 0, 0, 1); top: 0%;">
+                     <img src="img/logo-caatinga.png" alt="" style="width: auto; height: 340px;">
+                     </div>
+                     <div class="logos-carro" style=" text-align: right; bottom: 0%;">
+                     <img src="img/logo-gov.png" alt="" style="width: 200px; height: auto; text-align: right;"></div>
+                    </div>
+                    
+                    <!-- item 2 -->
+					<div class="item"><a class="smoothscroll" href="#section-2">
+                       <div style="background: rgba(255, 255, 255, 0.3); width: auto; height: 400px; text-align: center;"  >
+                       <div class="logos-carro">
+                           <img src="img/c-conf.png" alt="" style="width: auto; height: 340px;">
+                       </div></div></a>
+					</div>
+                    
+                    <!-- item 3 -->
+					<div class="item"><a class="smoothscroll" href="#seminarios">
+                       <div style="background: rgba(255, 255, 255, 0.3); width: auto; height: 400px; text-align: center;"  >
+                       <div class="logos-carro">
+                       <img src="img/c-semi.png" alt="" style="width: auto; height: 340px;">
+                       </div></div></a>
+					</div>
+                    
+                    
+                    <!-- item 4 -->
+					<div class="item"><a class="smoothscroll" href="#debates">
+                       <div style="background: rgba(255, 255, 255, 0.3); width: auto; height: 400px; text-align: center;"  >
+                       <div class="logos-carro">
+                       <img src="img/c-ciclo.png" alt="" style="width: auto; height: 340px;">
+                       </div></div></a>
+					</div>
+                    
+                    <!-- item 5 -->
+					<div class="item"><a class="smoothscroll" href="#section-4">
+                       <div style="background: rgba(255, 255, 255, 0.3); width: auto; height: 400px; text-align: center;"  >
+                       <div class="logos-carro">
+                       <img src="img/c-publi.png" alt="" style="width: auto; height: 340px;">
+                       </div></div></a>
+					</div>
+ 
+                    
+				</div> <a class="left carousel-control" href="#carousel-431301" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-431301" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+			</div>  
+    
+        <div class="header-destak2">
+            <p><b>Conhecimento e Cidadania</b></p>
+        </div>
+</section>
+</header>
+<!-- FIM Subhead
+================================================== -->
+     
+     <!-- SECTION 1  -- Institucional
+================================================== --><a id="sobre"></a>
+<section id="section-1" class="section-class bg-header-1">
+    <div class="container">
+        
+        <h1>Contribuindo para o desenvolvimento sustentável</h1></br>
+        <div class="circular-img"></div>    
+        <p class="lead">O <strong>Instituto Nordeste XXI</strong> surgiu no cenário de instituições não governamentais com objetivo precípuo de promover a difusão social do conhecimento em todas as áreas de atividade humana. Contribuindo ainda para a elevação de massa crítica de nossa sociedade, bem como, através deste mesmo conhecimento, fomentar o desenvolvimento  sustentável e o pleno exercício de cidadania de nossa população.</p>
+        <p class="lead">
+Outra missão do Instituto é o da realização de encontros, seminários, jornadas, congressos, fóruns, enfim, todo tipo de evento e ainda a elaboração  e formatação de projetos dentro do nível de suas atividades a serem encaminhados aos órgãos governamentais e não governamentais. </p>
+        <p class="lead">
+No âmbito da educação, capacitar, reciclar e habilitar servidores públicos em qualquer área ou instância, ministrando cursos através de convênios específicos. </p>
+        <p class="lead">
+Culturalmente, defender a conservação de patrimônio histórico e artístico; promover estudos, pesquisas, eventos e publicações que garantam a valorização e difusão de nossa cultura.</p>
+        <p class="lead">
+Ambientalmente, defender o desenvolvimento sustentável como forma de suprir as necessidades da geração atual, sem comprometer as necessidades das futuras gerações. Este é o desenvolvimento que não esgota os recursos para o futuro.
+</p></br>
+        
+    
+    <!-- Quem Somos ======== -->
+        <a id="quemsomos"></a></br></br>
+<img style="width: 200px; height: 200px; float: right;" alt="" src="img/missao.jpg" class="img-circle" />
+        <H2>Quem somos</H2>
+
+        <p class="lead">O <b>Instituto Nordeste XXI</b> é uma organização não governamental de caráter social e educativo, cuja missão precípua é contribuir para a elevação do nível do conhecimento de nossa sociedade com foco no Nordeste brasileiro.</p>
+     
+     <a id="missao"></a></br></br>
+     
+    
+    <!-- Missão ======== -->
+        
+        <H2>Missão</H2></br>
+
+        <p class="lead">Difusão social do conhecimento para a cidadania usando como meios cursos, eventos, seminários, encontros e publicações.</p>
+        </br></br></br>
+     
+</br></br></br></br></br></br></br>
+    </div> 
+</section>
+<!-- FIM SECTION
+================================================== -->
+     
+          <!-- SECTION 2 -- Eventos
+================================================== --><a id="eventos"></a>
+<section id="section-2" class="section-class">
+  <div class="container">
+        
+    <h1><strong>Instituto:</strong> um fórum de debate regional</h1>
+        <p class="lead">Dentre suas atribuições mais relevantes, o Instituto Nordeste XXI protagonizou série de eventos de interesse vital pra a região Nordeste, tornando-se assim um fórum permanente de debate sobre os problemas que assolam nosso chão com objetivo de apontar soluções para os mesmos. Percorremos quase todos os estados nordestinos reunindo governos, movimentos sociais, empresários e academia, fazendo a interface entre os vários atores sociais que compõem o mosaico regional.
+</p></br>
+    
+    
+<!--  Conferências ================================================ -->        
+<section id="conferencias"  class="section-class">
+    <p><H2>Conferências</H2></p>
+            <h3>I Conferência Regional da Caatinga</h3> 
+    
+    	<figure class="foto-legenda img-right" style="width: 50%; height: 30%;" >
+	    <img  src="img/abconf.jpg"/>
+		<figcaption>
+	    	<h3>I Conferência Regional da Caatinga</h3>
+	        <p style="color: #ffffff">Abertura da Conferência no Auditório Celso Furtado do Banco do Nordeste, em Fortaleza</p>
+	     </figcaption>
+	   </figure>
+    
+            <p class="lead">O bioma exclusivamente brasileiro e nordestino, cujo espaço estende-se por 70% da região nordeste, foi amplamente discutido nos dias 17 e 18 de maio de 2012, quando em Fortaleza ocorreu a <strong>I Conferência Regional de Desenvolvimento da Caatinga – A Caatinga na Rio+20.</strong> O encontro realizado pelo <strong>Instituto Nordeste XXI</strong> e <strong>Banco do Nordeste</strong>, aconteceu na sede do Banco, reunindo nos dois dias mais de 500 participantes, divididos em representantes da academia, terceiro setor, órgãos públicos e privados ligados ao meio ambiente, além de representantes políticos do Nordeste, todos mobilizados durante as pré-conferências realizadas nos estados de Alagoas, Bahia, Ceará, Minas Gerais, Paraíba, Pernambuco, Piauí, Rio Grande do Norte e Sergipe.</p>
+    <img style="float: right;
+            width: 180px;
+            height: auto;
+            border-radius: 6px;
+            padding: 10px;    
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            " alt="" 
+            src="img/logo-caatinga-rio20.jpg"/>
+        
+        <p class="lead">
+O resultado das discussões foi consolidado em um documento intitulado <a href="http://www.meioambiente.mg.gov.br/images/stories/newsletter/cartadacaatinga-rio20.pdf" target="_blank">Declaração da Caatinga</a>, que formaliza os compromissos assumidos pelos governos, parlamentos, setor privado, terceiro setor, movimentos sociais, comunidade acadêmica e entidades de pesquisa para a promoção do desenvolvimento sustentável do bioma. O objetivo da Conferência foi alcançado com louvor quando em junho de 2012, a Declaração foi apresentada em evento paralelo durante a Conferência da ONU, Rio+20.
+</p></br>
+
+</section>
+<!--  Ciclo de Debates ================================================ -->
+<section id="debates" class="section-class">
+<p><H2>Ciclos de Debates Nordeste XXI</H2></p>
+       <p class="lead">O <strong>Ciclo de Debates Nordeste XXI</strong> foi instituído para discutir a trajetória recente, atuais características e perspectivas das atividades econômicas e  sociais na região Nordeste do Brasil e sua inserção no contexto nacional de desenvolvimento. </p>
+        <p class="lead">
+É escopo ainda do Ciclo de Debates a criação de um  fórum permanente de discussão sobre temas de reais interesses da região Nordeste como forma de buscar soluções para os entraves que travam o desenvolvimento econômico e social no ritmo desejado.  
+</p></br>
+<div id="fotos-center">
+<p>       <ul id="album-fotos">
+            <li id="foto01"><span><b>Evento 1: </b>Avanços Socioeconômicos e Revisão de Políticas Públicas </br>Local: </b>Fortaleza, 2009</span></li>
+            <li id="foto02"><span><b>Evento 2: </b>Avanços Socioeconômicos e o Projeto Nordeste</br>
+<b>Local: </b>Recife, 2009</span></li>
+            <li id="foto03"><span><b>Evento 3: </b>Infraestrutura para o Desenvolvimento Regional</br>
+<b>Local: </b>Piauí, 2010</span></li>
+            <li id="foto04"><span><b>Evento 4: </b>Juazeiro: 100 anos de história, política e fé</br>
+<b>Local: </b>Cariri, 2010</span></li>
+            <li id="foto05"><span><b>Evento 5: </b>Infraestrutura para o Desenvolvimento Regional</br>
+<b>Local: </b>Salvador, 2010</span></li>
+
+            
+
+            <li id="foto06"><span><b>Evento 6: </b>Mídia: Regulação e Democracia</br>
+<b>Local: </b>Fortaleza, 2011</span></li>
+            <li id="foto07"><span><b>Evento 7: </b>Plano de Desenvolvimento Científico e Tecnológico para o Nordeste</br>
+<b>Local: </b>Salvador, 2011</span></li>
+            <li id="foto08"><span><b>Evento 8: </b>Economia Solidária como Estratégia de Inclusão Social e Desenvolvimento Local</br>
+<b>Local: </b>João Pessoa, 2011</span></li>
+            <li id="foto09"><span><b>Evento 9: </b>I Encontro de Blogueiros e Mídias Sociais do Ceará</br>
+<b>Local: </b>Fortaleza, 2011</span></li>
+            <li id="foto10"><span><b>Evento 10: </b>Mídia e Privatização no Brasil</br>
+<b>Local: </b>Fortaleza, 2012</span></li>
+            
+          </ul>
+</p>
+</div>
+</br>
+        </br>
+</section>
+
+
+<!--  Seminários ================================================ -->
+<section id="seminarios" class="section-class">
+<p><H2>Seminários</H2></p>
+            <h3>Seminário em parceria com a Universidade Federal do Ceará</h3>
+    <p class="lead"><strong>Instituto Nordeste XXI e a Universidade Federal do Ceará (UFC)</strong> promoveram seminário com a temática “Políticas Públicas e Movimentos Sociais’, no dia 23 de maio de 2013, no auditório da reitoria da UFC.
+        Na mesma oportunidade, foi feito o lançamento do livro <b>“Políticas Públicas e Movimentos Sociais: experiências exitosas no Estado do Ceará”</b>, feito em parceria com o Banco do Nordeste.
+Abaixo a programação do seminário. </p>
+        <p>
+      	
+	    <img style="width: 50%; height: auto; float: left; margin-right: 80px; box-shadow: 5px 5px 3px rgba(0,0,0,.2);" src="img/seminario.jpg">
+        
+	    <img style="width: 30%; height: auto; " src="img/livro-bnb.png">
+	   
+        </p></br></br>
+
+<!--  Troféu Tejucupapo ================================================ -->
+<section id="tejucupapo" class="section-class">
+<p><H2>Troféu Tejucupapo</H2></p> 
+    <h3>Troféu Tejucupapo - Mulher Nordeste VinteUm</h3></br>
+    <img style="width: 30%; height: auto; float: left; margin: 0 30px 0 10px;" src="img/niede.jpg">
+<p class="lead">Em 2010, o <strong>Instituto Nordeste XXI</strong> com o apoio promocional da revista <strong>Nordeste VinteUm</strong> instituiu o <b>Troféu Tejucupapo – Mulher Nordeste VinteUm</b>, reconhecimento em vida às vitórias e conquistas de guerreiras nordestinas, por naturalidade ou opção.Nossa primeira homenageada foi a arqueóloga franco-brasileira <b>Niède Guidon</b>, que está à frente da <strong>Fundação do Museu do Homem Americano (Fumdham) </strong>, no Piauí. 
+    Na segunda edição do <strong>Troféu Tejucupapo</strong>, a homenageada é uma das mais destacadas pensadoras da Academia brasileira, a economista <b>Tânia Bacelar</b>.
+    Em sua terceira edição o troféu agraciou a farmacêutica <b>Maria da Penha</b>, inspiradora da <a href="http://www.institutomariadapenha.org.br/lei11340.pdf" target="_blank">Lei Maria da Penha</a>, de amplitude nacional.</p></br></br>
+    <div>
+        <img style="width: 20%; height: auto; float: left; margin-left: 80px;" src="img/t1.jpg">
+        <img style="width: 10%; height: auto; float: left; margin: 0 80px 0 80px;" src="img/trofeu.png">
+        <img style="width: 20%; height: auto; float: left;" src="img/t2.jpg">
+    </div>
+        
+
+    
+    </div><!--  Fim Container Eventos ================================================ -->        
+</br></br></br></br>
+</section>
+<!-- FIM SECTION
+================================================== -->
+
+          <!-- SECTION 3 -- Projetos
+================================================== --><a id="projetos"></a>
+<section id="section-3" class="section-class ">
+         <div class="container">
+             
+<!--  Projetos ================================================ -->        
+<p><H2>Apoio à Cultura e a Educação</H2></p>
+             <h3>>> Projeto Livros do Brasil</h3>
+             <img  src="img/caneta.png"/>
+             <p><em><strong>“Livros são os mais silenciosos e constantes amigos; os mais acessíveis e sábios conselheiros; e os mais pacientes professores.”</strong></em> As palavras do educador que revolucionou Harvard, Charles W. Elliot, expressam com riqueza verbal o papel do livro, aí não vai nenhum trocadilho, para a história da humanidade. </p>
+             <p>
+                 O intróito tem por escopo realçar a justeza do projeto Livros do Brasil que, entre outros objetivos, pretende colocar Fortaleza no circuito de lançamento das grandes obras brasileiras, ficcionais e não ficcionais.  Aproximar o leitor dos grandes escritores e, através desse encontro, incentivar a prática quotidiana da leitura, seria ainda outro eixo de um projeto de tamanha envergadura.</p>
+            <p>
+E o projeto se iniciou em grande  estilo, pois trouxe  a Fortaleza, no dia 04 de novembro de 2011, em parceria com a Casa de Amizade Brasil-Cuba e Cebrapaz, o escritor Fernando Moraes para lançamento do livro Os últimos soldados da guerra fria, evento que se realizou no Plenário 13 de Maio da Assembleia Legislativa do Estado do Ceará. </p>
+        
+        </br></br></br></br>
+             
+         </div>     
+</section>
+<!-- FIM SECTION Projetos
+================================================== -->
+
+          <!-- SECTION 4 -- Publicações
+================================================== --><a id="publicacoes"></a>
+<section id="section-4" class="section-class">
+         <div class="container">
+             
+<!--  Publicações ================================================ -->        
+<div id=""><p><H2>Publicações apoiadas pelo Instituto Nordeste XXI</H2></p>
+      <h3>Revistas</h3></div>
+          <div id="fotos-center">
+          <p>       <ul id="album-fotos">
+            <li id="foto11"><span><b>Águas do Brasil</b></span></li>
+            <li id="foto12"><span><b>ECOBrasil</b></span></li>
+            <li id="foto13"><span><b>Nordeste VinteUM</b></span></li>
+            <li id="foto14"><span><b>Educação Profissional</b></span></li>
+            <li id="foto15"><span><b>Ciência&amp;Tecnologia</b></span></li>
+            <li id="foto16"><span><b>Aratuba<small></br><i> - Revista da Prefeitura Municipal</i></small></b></span></li>
+          </ul></p>
+          </div>
+</br>
+      <h3>Livros</h3>
+          <div id="fotos-center">
+          <p>       <ul id="album-fotos">
+            <li id="foto17"><span><b>O Mundo da Caatinga <small></br><i> - I Conferência da Caatinga</i></small></b></span></li>
+            <li id="foto18"><span><b>Políticas Públicas e Movimentos Sociais</b></span></li>
+            <li id="foto19"><span><b>Maranguape</b></span></li>
+            <li id="foto20"><span><b>Guia Prático da Segurança Pública</b></span></li>
+
+            <li id="foto21"><span><b>Cinema Cearense</b></span></li>
+            <li id="foto22"><span><b>Quixeramobim</b></span></li>
+            <li id="foto23"><span><b>Santo Antonio</b></span></li>
+            <li id="foto24"><span><b>Quando os Fantasmas Brincam de Amarelinha</b></span></li>
+          </ul></p>
+          </div>
+             
+         </div>    
+</section>
+<!-- FIM SECTION
+================================================== -->
+
+          <!-- SECTION 5 -- Estatuto 
+================================================== -->
+<!-- Incluir página separada -->
+     <!-- ESTATUTO
+================================================== --> <a id="estatuto"></a>
+
+
+<!-- FIM SECTION
+================================================== -->
+
+          <!-- SECTION 6 -- Contato
+================================================== --><a id="contato"></a>
+<section id="section-6" class="section-class">
+    <div class="container">
+        <div id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               
+
+            </div>
+
+
+                  <div class="row">
+<h1><span>Get In Touch.</span></h1>
+                     <div class="columns contact-details">
+                                 
+                                 <h3 style:"size: 22px color: white"></i>Correspondência:</h3>
+                                 <p class="address">
+                                    <strong><span>Rua Waldery Uchôa, 567 — A<br>Bairro Benfica<br>
+                                          CEP: 60.020-110<br>Fortaleza, Ceará, Brasil </span><br><br></strong>
+                                 
+                                 </p>
+                                 <div class="phone">
+                                             <i class="fa fa-phone"></i><strong>  +55 85 </strong><span>3077.5653 <strong></span><br>
+                                             <i class="fa fa-envelope-o"></i><span> institutonordestexxi@gmail.com</span>
+                        </div><br><br>
+
+                  <p class="lead">     </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Nome <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Assunto </label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Messagem <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Enviar</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error </div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Sua mensagem foi enviada, Obrigado!<br>
+				   </div>
+
+            </div>
+
+
+                        
+
+
+      </div>
+
+    </div> </div>
+    
+    </div>
+</section><!-- Fim Seção Contato-->
+
+
+<!-- FIM SECTION
+================================================== -->
+
+           <!-- Footer -- file>> css/style.css --
+================================================== -->
+<footer id="footer">
+<br><br>
+    <div class="col-md-12">
+                    <ul class="social-network social-circle">
+                        
+                <li><a href="https://www.facebook.com/InstitutoNordesteXXI" target="_blank" class="icoFacebook social-bnt" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/institutonexxi" target="_blank" class="icoTwitter social-bnt" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.google.com/+NordestexxiBrInstituto" target="_blank" class="icoGoogle social-bnt" title="Google+"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/nordestexxi" target="_blank" class="icoLinkedin social-bnt" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://instagram.com/vladimirpezzole/" target="_blank" class="icoInstagram social-bnt" title="Twitter"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/user/Institutonordestexxi" target="_blank" class="icoYoutube social-bnt" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+                       
+                    </ul>	
+        
+        <ul class="copyright"></br>
+            <img src="img/logo-azul-60px.png" aling="center" alt="" /><a title="Styleshout" href="http://nordestexxi.org.br/"><i></br><b style="color: white;"> Instituto Nordeste XXI de Difusão Social do Conhecimento</b></i></a></br></br><hr>
+        
+        <a href="http://alterativos.com.br/" target="_blank"><em>&copy; Copyright 2015 - Alterativos</a></em>
+            </ul>
+        
+	</div>
+    
+      <div class="row">
+         <div id="go-top">
+             <a class="smoothscroll" title="Back to Top" href="#home">
+                 <i class="glyphicon glyphicon-chevron-up"></i></a></div>
+      </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   </footer> <!-- Footer End-->
+
+<!-- FIM SECTION
+================================================== -->  
+<!-- Java Script ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+  
+   <script src="js/waypoints.js"></script>
+   <script src="js/init.js"></script>
+<!-- Fim Java Script ================================================== -->
+     </DIV></body></html>

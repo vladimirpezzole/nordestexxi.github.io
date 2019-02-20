@@ -1,0 +1,620 @@
+/*
+=====================================================================
+*   vladimirpezzole.com.br v1.0 Layout Stylesheet
+*   url: nordestexxi.com.br
+*   07-07-2015
+=====================================================================
+
+INDICE
+    Geral.
+        .fonts
+        .fundo
+
+    Barra de Navegação.
+
+   a. General Styles
+        1.Barra de cor e transparência Menu
+        2.Container
+        3.Carrossel: --> carrossel.css
+
+
+   b. SubHead "Seção"
+   c. Sections "Seção"
+   d. "Seção 1 'cinza escuro'"
+   e. "Seção 1 'cinza claro'"
+   h. Contato "Seção"
+   i. Páginas
+   j. Rodapé
+        Rdes sociais: --> social-network.css
+
+===================================================================== */
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; font-weight: 600; color: #ff6f6f; }
+
+.fundo, body {
+  background: #eee url("../img/fundo.png");
+  background-image: url("../img/fundo.png");
+  background-color: rgb(238, 238, 238);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+
+}
+
+
+.div-center {text-align: center; float: left;}
+
+/* Formatação de imagens com legendas */			
+
+figure.foto-legenda {
+		position: relative;
+		border: 8px solid white;
+		box-shadow: 1px 1px 4px black;
+        padding: auto;
+        margin: 10px 30px 10px 0
+		
+	}
+figure.img-right {
+        float: right;
+        margin-left: 8px;
+ 	}
+
+figure.img-left {
+        float: left;
+        
+ 	}
+
+figure.foto-legenda img {
+		width:100%;
+		height:100%;
+    
+			
+	}
+
+figure.foto-legenda figcaption {
+	opacity: 0;
+	position: absolute;
+	bottom: 0px;
+	background:rgba(0,0,0,0.4);
+	color: white;
+	width: 100%;
+	height: auto;
+	padding: 10px 80px 10px 10px;
+	box-sizing: border-box;
+	transition: opacity 1s;
+	}
+
+
+	
+figure.foto-legenda:hover figcaption {
+	opacity: 1;
+}
+
+
+.quadrado-img {
+    text-align: center;
+	width:355px;
+	height:112px;
+	background:transparent url(../img/logo1.png)  no-repeat;
+	}
+
+.circular-img {
+    float: left;
+	width: 350px;
+	height: 350px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(../img/bola-nova.png) no-repeat;
+	}
+
+.float-img {
+    float: right;
+    margin: 0 0 0 30px;
+    box-shadow: 5px 5px 10px;
+	width: 120px;
+	height: 147px;
+    border-radius: 6px;
+	background: url(../img/logo-caatinga-rio20.jpg) no-repeat;
+    margin-top: -10px; 
+-webkit-transform: skew(-10deg, 10deg) ; 
+-moz-transform: skew(-10deg, 10deg) ; 
+-o-transform: skew(-10deg, 10deg) ; 
+padding:15px;text-align:center;color:#dcdcdc;font-size:13px 
+    }
+
+#fotos-center {
+    margin-left: 6%;
+    max-width: 1200px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Barra de Navegação -- file>> css/media-nav-wrap.css --
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+/* a. General Styles -- file>> css/bootstrap.css --
+/* ------------------------------------------------------------------ */
+
+/* 1.Barra de cor e transparência Menu */
+
+#div-box-nav {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+#div-box {
+    width: 100%;
+    height: 110%;
+    position: absolute;
+}
+.opaque-nav { 
+    background-color: #11ABB0; 
+    opacity:0.3;
+    filter:alpha(opacity=30); /* For IE8 and earlier */
+}
+.opaque { 
+    background-color: rgba(182, 73, 65, 1); 
+    opacity:0.9;
+    filter:alpha(opacity=30); /* For IE8 and earlier */
+}
+
+    /* 1.a Menu*/
+
+
+
+/* 2.Container */
+div.cont1 {
+    background-color: aliceblue;
+    margin-top: 0px;
+}
+
+/* 3.Carrossel --> carrossel.css*/
+
+
+
+/* body - header - div-1 - div#box | background-color: cadetblue; | */
+
+
+/* #header-1, #section-1, #section-2, #section-3, #section-4, #section-5, #section-6, #section-7  */ {
+    border-bottom: 2px dashed #f00;
+}
+
+body {
+    
+}
+
+
+#header-1 {
+   
+   margin-top: 0px;
+   padding: 0px;
+   overflow: hidden;
+   align-content: center;
+}
+
+.div-fundo {
+     width:100%;
+     height: 600px;
+     background-color: #ffffd8;
+     background-image:url(../img/line.png);
+
+}
+
+
+#div-1 {
+    background: #F4A460;
+    border: solid blue 1px;
+    padding: 50px;
+}
+
+div#box-carro {
+   
+  width: 1230px;
+  height: 400px;
+  margin: auto;
+  padding: 0px;
+  border: solid #b7b721 0px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+.header-destak {
+  font-family: 'Montserrat'; font-size: 30px; sans-serif; font-weight: 400; color: #cacbef;
+  width: 70%;
+  position: relative;
+  top: 100%;
+  right: 15%;
+  left: 15%;
+  z-index: 10;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.header-destak2 {
+  font-family: 'Montserrat'; font-size: 30px; sans-serif; font-weight: 400; color: #2F2D7A;
+  width: 70%;
+  position: relative;
+  top: -2%;
+  right: 15%;
+  left: 15%;
+  z-index: 20;
+  text-align: center;
+}
+
+.header-social {
+margin: 0 auto;
+}
+/* ------------------------------------------------------------------ */
+/* b. SubHeader -- file>> css/media-nav-wrap.css --
+/* ------------------------------------------------------------------ */
+#Subhead {
+  position: relative;
+  width: auto;
+  height: 768px;
+  padding: 5px 0 0 0;
+
+}
+  
+.btn { color: #d4f51f;}
+
+.Subhead {
+    color: aliceblue;
+    text-align: center;
+    padding:  10px 0 0 0;
+    background-color: rgba(0, 0, 0, 0.47);
+    border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;}
+
+#div-sub-h { 
+    width: 70%;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: 8%;
+    z-index: 10;
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+/* ------------------------------------------------------------------ */
+/* c. Sections "Seção"
+/* ------------------------------------------------------------------ */
+
+.section-class2{
+   background: #00FFFF;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+.section-class{ background:.fundo; padding-top: 40px; }
+
+.clear { clear: both; }
+
+/* -- Section 1 --*/
+#section-1 { background: #c3b717;}
+#section-1 h1 { text-align: center; color: #272727; }
+#section-1 h2 { color: #272727; }
+#section-1 h3 { color: #272727; }
+#section-1 .lead { font-family: 'Montserrat', sans-serif; color: #292929; }
+#section-1 p { font-family: 'Montserrat', sans-serif; color: #212121; }
+#section-1 strong { color: #000; }
+
+
+
+/* -- Section 2 --*/
+#section-2 { background-color: #fffcdd; }
+#section-2 h1 { text-align: center; color: #ff8e98;  }
+#section-2 h2 { color: #ac5d64; }
+#section-2 h3 { color: #ac5d64; }
+#section-2 .lead { font-family: 'Montserrat', sans-serif; color: #4b4b4b; }
+#section-2 p { font-family: 'Montserrat', sans-serif; color: #2c2c2c; }
+#section-2 strong { color: #ac5d64; }
+#section-2 h1 strong { color: #ac5d64; }
+#section-2 b { color: #b20000; }
+#section-2 a { color: #b20000; text-decoration: underline;}
+
+.abconf-img {
+    text-align: center;
+	width:60%;
+	height:60%;
+	background:transparent url(../img/abconf.jpg)  no-repeat;;
+	}
+
+
+/* -- Section 3 --*/
+#section-3 { background: #c3b717;}
+#section-3 h1 { text-align: center; color: #272727; }
+#section-3 h2 { color: #272727; }
+#section-3 h3 { color: #272727; }
+#section-3 .lead { font-family: 'Montserrat', sans-serif; color: #292929; }
+#section-3 p { font-family: 'Montserrat', sans-serif; color: #212121; }
+#section-3 strong { color: #000; }
+
+/* -- Section 4 --*/
+#section-4 { background-color: #fffcdd; }
+#section-4 h1 { text-align: center; color: #ff8e98;  }
+#section-4 h2 { color: #ac5d64; }
+#section-4 h3 { color: #ac5d64; }
+#section-4 .lead { font-family: 'Montserrat', sans-serif; color: #4b4b4b; }
+#section-4 p { font-family: 'Montserrat', sans-serif; color: #2c2c2c; }
+#section-4 strong { color: #ac5d64; }
+#section-4 h1 strong { color: #ac5d64; }
+#section-4 b { color: #b20000; }
+#section-4 a { color: #b20000; text-decoration: underline;}
+
+/* -- Section 5 --*/
+#section-5 {background: rgba(3, 3, 3, 0.7); padding: 60px 0;}
+#section-5 .container { background: #fff !important; padding: 10px 100px;}
+#section-5 .container #continua {margin: 50px 50px 100px 50px; text-align: right;}
+#section-5 .container #continua a {color: #5f5f5f; font-size: 16px; font-weight: 800;}
+
+
+/* -- Section 6 --*/
+#section-6 { background: #c3b717; }
+
+
+/* ------------------------------------------------------------------ */
+/* h. Contato "Seção"
+/* ------------------------------------------------------------------ */
+
+#contact {
+   width: 80%;
+    margin-left: 20%;
+   background: #c3b717;
+   padding-top: 0px;
+   padding-bottom: 102px;
+   color: #636363;
+}
+
+#contact .nome {
+  font: 22px/30px 'opensans-bold', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #dddddd;
+}
+
+#contact .phone {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+ }
+
+.contact-details {
+    margin-left: 11%;
+}
+.contact-details h3 {
+    color: #4a4a4a;
+}
+
+#contact .section-head { margin-bottom: 42px; }
+
+#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a:hover, #contact a:focus { color: #fff; }
+
+#contact h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+#contact h1 span { display: none; }
+#contact h1:before {
+   font-family: 'FontAwesome';
+   content: "\f0e0";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #fffcdd;
+}
+
+#contact h4 {
+   font: 16px/24px 'opensans-bold', sans-serif;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+
+#contact p, strong, em {
+   line-height: 20px;
+   color: #000;
+    font-weight: 100;
+}
+
+#contact p.lead {
+   font: 18px/36px 'opensans-light', sans-serif;
+   padding-right: 3%;
+}
+#contact .header-col { padding-top: 6px; }
+
+
+/* contact form */
+#contact form { margin-bottom: 30px; }
+#contact label {
+   font: 15px/24px 'opensans-bold', sans-serif;
+   margin: 12px 0;
+   color: #000;
+	display: inline-block;
+	float: left;
+   width: 10%;
+}
+#contact input,
+#contact textarea,
+#contact select {
+   padding: 18px 20px;
+	color: #000;
+	background: #fffcdd;
+	margin-bottom: 42px;
+	border: 0;
+	outline: none;
+   font-size: 15px;
+   line-height: 24px;
+   width: 65%;
+}
+#contact input:focus,
+#contact textarea:focus,
+#contact select:focus {
+	color: #fff;
+	background-color: #11ABB0;
+}
+#contact button.submit {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color:#fff;
+   background: #8e8313;
+	border: none;
+   cursor: pointer;
+   height: auto;
+   display: inline-block;
+	border-radius: 3px;
+   margin-left: 10%;
+}
+#contact button.submit:hover {
+	color: #0D0D0D;
+	background: #fff;
+}
+#contact span.required {
+	color: #11ABB0;
+	font-size: 13px;
+}
+#message-warning, #message-success {
+   display: none;
+	background: #0F0F0F;
+	padding: 24px 24px;
+	margin-bottom: 36px;
+   width: 65%;
+   margin-left: 26%;
+}
+#message-warning { color: #D72828; }
+#message-success { color: #11ABB0; }
+
+#message-warning i,
+#message-success i {
+   margin-right: 10px;
+}
+#image-loader {
+   display: none;
+   position: relative;
+   left: 18px;
+   top: 17px;
+}
+
+
+/* Twitter Feed */
+#twitter {
+   margin-top: 12px;
+   padding: 0;
+}
+#twitter li {
+   margin: 6px 0px 12px 0;
+   line-height: 30px;
+}
+#twitter li span {
+   display: block;
+}
+#twitter li b a {
+   font: 13px/36px 'opensans-regular', Sans-serif;
+   color: #474747 !important;
+   border: none;
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* j. Roda Pé
+/* ------------------------------------------------------------------ */
+
+footer {
+   background: #7e7305;
+   padding-top: 48px;
+   margin-bottom: 48px;
+   color: #ffff00;
+   font-size: 14px;
+   text-align: center;
+   position: relative;
+   margin-left: 0px;
+}
+
+footer a, footer a:visited { color: #525252; }
+footer a:hover, footer a:focus { color: #fff; }
+
+/* copyright */
+footer .copyright em, a {
+    margin: 0;
+    padding: 0;
+    color: #c2caf7;
+ }
+footer .copyright li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+.ie footer .copyright li {
+   display: inline;
+}
+footer .copyright li:before {
+    content: "\2022";
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #095153;
+}
+footer .copyright  li:first-child:before {
+    display: none;
+}
+
+/* social links */
+footer .social-links {
+   margin: 18px 0 30px 0;
+   padding: 0;
+   font-size: 30px;
+}
+footer .social-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+    color: #F06000;
+}
+
+footer .social-links li:first-child { margin-left: 0; }
+
+/* Go To Top Button */
+#go-top {
+	position: absolute;
+	top: -24px;
+   left: 50%;
+}
+#go-top a {
+	text-decoration: none;
+	border: 0 none;
+	display: block;
+	width: 60px;
+	height: 60px;
+	background-color: #576506;
+
+	-webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+
+   color: #fff;
+   font-size: 21px;
+   line-height: 60px;
+ 	border-radius: 100%;
+}
+#go-top a:hover { background-color: #0F9095; }
+

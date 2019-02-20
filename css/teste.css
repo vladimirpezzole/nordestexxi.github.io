@@ -1,0 +1,37 @@
+/*
+=====================================================================
+*   vladimirpezzole.com.br v1.0 Layout Stylesheet
+*   url: nordestexxi.com.br
+*   07-07-2015
+=====================================================================
+
+INDICE
+   a. General Styles
+        1.Barra de cor e transparência Menu
+        2.Container
+        3.Carrossel
+
+   b. Barra de Navegação
+   b. SubHead "Seção"
+   c. Sobre "Seção"
+   d. xxxxxxxx "Seção"
+   e. xxxxxxxx "Seção"
+   h. Contato "Seção"
+   i. Páginas
+   j. Rodapé
+
+===================================================================== */
+
+#fundo {
+  background: #eee url("../img/carro0.jpg");
+  background-image: url("../img/carro0.jpg");
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(238, 238, 238);
+}
